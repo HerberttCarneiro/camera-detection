@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.camera-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: grey;
+}
+
+.container-camera {
+  margin: 2px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 2px solid white;
+}
+
+.container-camera * {
+  width: 615px !important;
+  height: 480px !important;
+
+}
+
+.content-camera {
+  top: 0;
+  left: 0;
+}
+
+.camera-overlay {
+  margin-top: -490px;
+  opacity: 0.3;
+}
